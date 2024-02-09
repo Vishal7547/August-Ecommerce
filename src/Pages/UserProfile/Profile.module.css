@@ -1,0 +1,33 @@
+.userProfile{
+  display:flex;
+}
+.left{
+    margin-top:-30px !important;
+  margin:10px;
+  width:240px;
+}
+.right{
+  margin-top:-82px;
+    flex:7;
+}
+.Up{
+    display: flex;
+    padding:10px;
+}
+.upLeft{
+    flex:20%;
+}
+.upRight{
+    flex:88.6%;
+    padding-bottom:20px;
+    border-bottom:1px solid hsla(0,0%,59%,.1);
+
+  }
+.Down{
+  margin-top:70px !important;
+  border-left:1px solid hsla(0,0%,59%,.1);
+  padding:50px;
+}
+.divinside{
+  margin-top:-70px;
+}

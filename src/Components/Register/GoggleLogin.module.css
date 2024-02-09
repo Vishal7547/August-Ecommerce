@@ -1,0 +1,27 @@
+.fotterlogin{
+    text-align:center;
+    padding:10px;
+}
+.fotterlogin span{
+    font-size:0.8rem;
+    color:#000;
+    text-align:center; 
+    margin-bottom:40px;
+    font-weight:200;
+   
+}
+.fotterloginIcon{
+    font-size:2rem;
+    color:#000;
+}
+
+.fotterlogins{
+    font-size:0.6rem!important;
+    color: #8b8b8b !important;
+    font-weight:500px !important;; 
+}
+.fotterloginp{
+    font-size:0.6rem!important;
+    color:#222 !important;
+    font-weight:400 !important;  
+}

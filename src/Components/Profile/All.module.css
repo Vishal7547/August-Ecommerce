@@ -1,0 +1,91 @@
+.container{
+    height:auto;
+    width:96%;
+    border:1px solid #D4D4D4;
+    box-sizing: border-box;
+    margin-top:60px;
+}
+.allheading{
+    height:50px;
+    border:1px solid #D4D4D4;
+    padding:10px;
+   padding-left:15px;
+}
+.allheading .ordersts{
+   font-size:1rem;
+}
+.allheading .dispatchsts{
+    font-size:0.9rem;
+    font-weight:600;
+    color:#000;
+}
+.allsubheading{
+    height:40px;
+    border:1px solid #D4D4D4; 
+    background-color: #F4F4F4;
+    font-size:0.8rem;
+    padding:10px;
+    padding-left:15px;
+}
+.orderiddata{
+    margin-right:35px;
+}
+.innercard{
+    display:flex;
+    justify-content:space-between;
+}
+.allleft{
+    display:flex;
+    flex-direction:row;
+}
+.allimg img{
+    height:150px;
+    width:130px;
+    margin:20px;
+}
+.allimgheading{
+    font-size:0.8rem;
+    margin-top:20px;
+}
+.allimgsubheading{
+    font-size:0.8rem;
+    margin-top:50px;
+    margin-left:-128px;
+    font-weight:700;
+    color:#000;
+}
+.allitems{
+    font-size:0.8rem;
+    font-weight:700;
+    color:#000; 
+    margin-left:-80px; 
+    margin-top:20px;
+}
+.btns{
+    display:flex;
+    flex-direction:column;
+
+}
+.btns button{
+    margin:10px;
+    margin-bottom:6px;
+    background-color: #000;
+    color:white;
+    border:none;
+    padding:5px;
+    border-radius:5px;
+    font-size:0.8rem;
+    font-weight:700;
+  outline:none;
+  cursor:pointer;
+  width:180px;
+}
+.pagination{
+    margin-top:20px;
+    margin-left:900px;
+    font-size:0.9rem;
+    font-weight:600;
+}
+.pagination span{
+    cursor:pointer;
+}

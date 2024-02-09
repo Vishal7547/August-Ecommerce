@@ -1,0 +1,39 @@
+#categoryouter{
+    margin-top:120px;
+}
+#categorySlider{
+    /* text-align: center; */
+    /* font-size: 18px; */
+    background: #fff;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+ 
+}
+#categorySlider img{
+    display: block;
+    width:95%!important;
+    height:100% !important;
+    object-fit: contain;
+}
+
+/* .card {
+    background-color: white;
+    margin-top:120px;
+    margin-left:60px;
+    height:700px;
+    width:400px;
+    position: relative;
+} */
+
+
+.productimg{
+    margin-top:120px !important; 
+}
+.productimg img{
+   /* position: absolute; */
+   height:100px!important;
+   width:100px !important;
+   z-index:-1;
+   object-fit:contain;
+}

@@ -1,0 +1,72 @@
+.form{
+    /* border:1px solid black; */
+    height:600px;
+    width:600px;
+    text-align:left;
+    padding:30px;
+}
+.emailHeader{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.emailHeader span{
+    font-size:0.8rem;
+    color:#000;
+    margin-top:80px;
+    /* margin-left:20px; */
+    margin-bottom:40px;
+    font-weight:400;
+    background-color:white;
+  font-family: URMacan, -apple-system, blinkmacsystemfont, "Helvetica Neue", helvetica, segoe ui, arial, roboto, "PingFang SC", "miui", "Hiragino Sans GB", "Microsoft Yahei", sans-serif !important;
+
+}
+.emailInput{
+  padding:10px;
+  width:500px;
+  border:none;
+  border: 1px solid #dadada; 
+  border-radius:5px;
+  outline:none;
+  font-family: URMacan, -apple-system, blinkmacsystemfont, "Helvetica Neue", helvetica, segoe ui, arial, roboto, "PingFang SC", "miui", "Hiragino Sans GB", "Microsoft Yahei", sans-serif !important;
+
+}
+.emailInput:hover{
+    border:1px solid black;
+}
+.password{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.password span{
+    font-size:0.8rem;
+    color:#000;
+    margin-top:80px;
+    /* margin-left:20px; */
+    margin-bottom:40px;
+    font-weight:400;
+
+  font-family: URMacan, -apple-system, blinkmacsystemfont, "Helvetica Neue", helvetica, segoe ui, arial, roboto, "PingFang SC", "miui", "Hiragino Sans GB", "Microsoft Yahei", sans-serif !important;
+}
+.passwordInput{
+    padding:10px;
+    width:500px;
+    border:none;
+    border: 1px solid #dadada; 
+    border-radius:5px;
+    outline:none;
+    font-family: URMacan, -apple-system, blinkmacsystemfont, "Helvetica Neue", helvetica, segoe ui, arial, roboto, "PingFang SC", "miui", "Hiragino Sans GB", "Microsoft Yahei", sans-serif !important;
+}
+.passwordInput:hover{
+    border:1px solid black;
+}
+.btnSignup{
+    margin-top:40px;
+    padding:10px;
+    text-align:center;
+    background-color:#000;
+    color:#fff;
+    outline:none;
+    border:none;
+    width:550px;
+    border-radius:4px;
+}

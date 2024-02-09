@@ -1,0 +1,25 @@
+.youreverymoodcontainer{
+    margin-top:70px;
+   
+}
+.youreverymoodheading{
+    font-size:3.4rem;
+    margin-left:70px;
+    margin-bottom:40px;
+    --ub-font-family:-apple-system,blinkmacsystemfont,"Helvetica Neue",helvetica,segoe ui,arial,roboto,"PingFang SC","miui","Hiragino Sans GB","Microsoft Yahei",sans-serif !important;
+}
+.youreverymoodbox{
+    display:flex;
+    justify-content:space-around;
+    padding-right:10px;
+}
+.divimage img{
+    height:500px;
+    width:400px;
+    margin-left:70px;
+}
+.everymoodsubhed{
+    text-align: left;
+    padding:10px;
+    margin-left:60px;
+}

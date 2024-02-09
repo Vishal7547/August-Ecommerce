@@ -1,0 +1,50 @@
+.containerwhole{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* height:100vh;
+    width:100vw; */
+    margin:50px;
+}
+.containeraddress{
+    border: 1px solid rgb(209, 209, 209);
+    width:80%;
+    display:flex;
+    justify-content:space-between;
+    padding:30px;
+    border-radius:8px;
+}
+.address span{
+    padding:5px;
+    font-size:0.8rem;
+    font-weight:600;
+    font-family: URMacan, -apple-system, blinkmacsystemfont, "Helvetica Neue", helvetica, segoe ui, arial, roboto, "PingFang SC", "miui", "Hiragino Sans GB", "Microsoft Yahei", sans-serif !important;
+}
+.left{
+  display:flex;
+  flex-direction:column;  
+}
+.details{
+    margin:10px;
+}
+.details span{
+    margin:5px;
+ font-size:0.8rem;
+ font-weight: 100px !important;;
+ font-family: URMacan, -apple-system, blinkmacsystemfont, "Helvetica Neue", helvetica, segoe ui, arial, roboto, "PingFang SC", "miui", "Hiragino Sans GB", "Microsoft Yahei", sans-serif !important;
+}
+
+.right{
+    font-size:0.8rem;
+    font-weight: 100px !important;;
+    font-family: URMacan, -apple-system, blinkmacsystemfont, "Helvetica Neue", helvetica, segoe ui, arial, roboto, "PingFang SC", "miui", "Hiragino Sans GB", "Microsoft Yahei", sans-serif !important;
+    display:flex;
+    flex-direction:row;
+}
+.radiobtn{
+   margin:10px;
+}
+.icon{
+    margin:10px;
+
+}

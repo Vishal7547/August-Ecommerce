@@ -1,0 +1,78 @@
+.ftcontainer{
+    height:700px;
+    width:100vw;
+}
+.ftupper{
+    margin-top:50px;
+    display: flex;
+    justify-content:space-around;
+}
+.ftmiddle{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin-top:80px !important;
+}
+.ftheadmiddle{
+    font-family: -apple-system,
+    BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size:0.9rem;
+    color:#000;
+    font-weight:500;
+   padding-bottom:40px !important ;
+}
+.ftsubh5{
+   font-size:0.7rem;
+   color:#000;
+   font-weight:300;
+   padding-top:5px;
+   padding-bottom:5px;
+}
+.fticons{
+ display: flex;
+ flex-direction:row;
+ justify-content: center;
+ align-items: center;
+ margin-top:50px;
+}
+.ftsoical{
+margin-left: 30px;
+}
+.fticonimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+    margin-left:30px;
+}
+.ficon-img{
+    margin-left:10px;
+}
+.fticonlogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:20px;
+    margin-top:20px;
+}
+.fthr{
+    color:#f4f4f4d1;
+}
+.ftparalast{
+    text-align: center;
+    font-family: -apple-system,
+    BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 0.6rem;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.ftsomeiconsimg{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    margin-left:30px;
+}
+.ftsmiconimg img{
+    margin-right:30px;
+}

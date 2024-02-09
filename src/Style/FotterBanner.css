@@ -1,0 +1,78 @@
+.containerftb{
+    height:600px;
+    width:100vw!important;
+    box-sizing:contain;
+}
+.leftfotter{
+    height:400px;
+    /* width:600px; */
+    background-color:#597560;
+    color:#FBEBB1;
+    padding: 5px;
+    text-align: left;
+    padding-top: 30px;
+    font-family: 'URDalaFloda' !important;
+}
+.ftbheading{
+    font-size:3rem;
+    letter-spacing: 0.7px !important;
+    line-height:4rem !important;
+    font-variant: lining-nums;
+    margin-left:80px;
+   
+}
+.ftbpara{
+    font-size:1rem;
+    margin-left:80px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    /* font-size: .16rem; */
+    text-align: left;
+    /* line-height: .22rem; */
+    margin-top: 0.28rem;
+    white-space: pre-line;
+}
+.lastftb{
+    margin-left:80px;
+
+}
+.rightfotter{
+    height:400px;
+}
+.rightfotter img{
+    height:100%;
+    width:780px;
+    margin-left:-12px;
+}
+.btmftb{
+    height:200px;
+    width:2000px!important;
+    padding: auto;
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+    background-color: #FBEBB1;
+}
+.ftblogocap span{
+    letter-spacing: .02rem;
+    line-height:2.5rem !important;
+    font-size:2rem;
+    color:#07285D;
+    font-family: 'URDalaFloda' !important;
+}
+.logoftb{
+       /* font-family: -apple-system,blinkmacsystemfont,Helvetica Neue,helvetica,segoe ui,arial,roboto,PingFang SC,miui,Hiragino Sans GB,Microsoft Yahei,sans-serif !important; */
+       font-size:3rem;
+       padding:5px;
+       color:#07285D;
+       font-family: 'Bodoni Moda', serif;
+       font-weight:900;
+       font-family: 'Inconsolata', monospace;
+}
+.btmftb input{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    background-color:#FBEBB1;
+    text-align: center;
+    width:300px;
+}

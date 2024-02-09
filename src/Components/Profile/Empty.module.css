@@ -1,0 +1,28 @@
+.Container{
+    height:100vh;
+    font-family: URMacan, -apple-system, blinkmacsystemfont, "Helvetica Neue", helvetica, segoe ui, arial, roboto, "PingFang SC", "miui", "Hiragino Sans GB", "Microsoft Yahei", sans-serif !important;
+
+}
+.emptyContainer{
+ display:flex;
+ flex-direction:column;
+ align-items:center;
+ justify-content:center;
+  margin-top:200px;
+  
+}
+.emptyIcon{
+    margin-bottom:10px;
+}
+.signs{
+    font-size:2rem;
+    font-weight:600;
+    color:#000;
+}
+.emptyText span{
+    font-size:1.2rem;
+    font-weight:500;
+    color: #000;
+    margin-bottom:40px;
+}
+

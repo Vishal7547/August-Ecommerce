@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+  
+}
+.scontainer{
+    height:auto;
+    width:100vw;
+    position:fixed;
+    background-color:#fff;
+    top:-10px;
+    z-index:1;
+}
+.scnttop{
+    height:120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sbar input{
+    width:650px;
+    border:none;
+    background-color:#F4F4F4;
+    border-radius:15px;
+    padding:10px;
+    position: relative;
+}
+.sbar button{
+    position: absolute;
+    right:460px;
+    top:45px;
+    border:none;
+}
+.sbar input:focus{
+    outline:none;
+}
+.scancel{
+    position:absolute;
+    right:30px;  
+    top:34px;
+    left:1450px;
+}
+.sctdown{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+.stopsearch{
+  margin-left:400px;
+  font-size:1rem;
+  font-weight:500;
+  color:#222;
+}
+.stopsearchdown{
+  padding:10px;
+  margin-left:390px; 
+  margin-top:20px; 
+  margin-bottom:40px;
+  cursor: pointer;
+}
+.stopsearchdown span{
+    font-size:0.8rem;
+    font-weight:400;
+    margin-right:90px;
+}
+.videocls{
+    width:100vw;
+    height:70%;
+    position:relative;
+}
+.videocls video{
+ width:100%;
+ height:70%;
+ object-fit:cover;   
+}
+.content1{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    font-weight: 100;
+}
+.sctdownsearch{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.sctdowncont{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;  
+    width:300px;
+    height:100px;
+    display:flex;
+    justify-content:space-between;
+    margin-left:40px;
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-right:20px;
+}
+
+.sctright{
+    display:flex;
+    flex-direction:column;
+}
+.scttext{
+ font-size:0.7rem;
+ position: relative;
+ text-align:left;
+ margin-left:20px;
+}
+.sctprice{
+position: absolute;
+top:70px;
+left:-5px;
+}
+.sctv button{
+    margin-top:50px;
+    margin-left:40px;
+    outline:none;
+    background-color:#000;
+    color:#fff;
+    border:none;
+    border-radius:7px;
+    padding:6px;
+    width:200px;
+    font-size:0.8rem;
+    margin-bottom: 30px;
+}

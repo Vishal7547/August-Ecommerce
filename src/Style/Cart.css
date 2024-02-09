@@ -1,0 +1,122 @@
+.bag {
+    height: auto;
+    width: 100%;
+}
+
+.cartHeading {
+    background-color: rgb(244, 244, 244);
+}
+
+.fontFamilyCart span {
+    font-size: 1.18rem;
+}
+
+.cartShow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.cartImage img {
+    height: auto;
+    width: 200px;
+    object-fit: contain;
+}
+
+.CartSize {
+    align-self: baseline;
+    width: 100%;
+}
+
+.cartPrice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartProductName p {
+    font-size: small;
+}
+
+.cartInc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    border: 0.2px solid #333;
+    border-radius: 5px;
+}
+
+.cartInc div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    height: 10px;
+    width: 20px;
+    padding: 10px;
+    border: 0.1px solid #333;
+    cursor: pointer;
+}
+
+.cartInc div span {
+    text-align: center !important;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.incCart,
+.decCart {
+    font-size: 1.3rem !important;
+}
+
+/* .noneInitially {
+    display: none !important;
+}
+
+.cartInc:hover .noneInitially {
+    display: block !important;
+} */
+
+.hearIcon {
+    margin-top: 230px;
+}
+
+.similarTag {
+    position: relative;
+}
+
+.crossIcon {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.fontFamilyCart {
+    cursor: pointer;
+}
+
+
+/* ==============================
+============ */
+.checkout,
+.CheckoutHeading {
+    background-color: rgb(244, 244, 244);
+}
+
+.paymentCheckout {
+    padding: 2rem;
+    ;
+}
+
+.addressCheckoutTime {
+    border-bottom: 1px dotted grey;
+}
+
+.checkoutImag img {
+    height: auto;
+    width: 150px;
+    object-fit: contain;
+}

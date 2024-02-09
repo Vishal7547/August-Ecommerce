@@ -1,0 +1,69 @@
+.BestSellerTopic{
+display:flex;
+justify-content:space-between;
+}
+.bestsellerspan{
+    margin-left:70px;
+    font-size:3rem;
+}
+.bestsellershopnow{
+    margin-right:70px;
+    margin-top:20px;
+    font-size:1.2rem;  
+}
+.card {
+    background-color: white;
+    margin-top:20px;
+}
+.productimg img{
+   height:400px;
+   width:100%;
+   z-index:-1;
+   object-fit: contain;
+}
+.info{
+    /* width:100%; */
+    color:black;
+
+}
+.clothesname{
+    font-size:0.8rem;
+    font-weight:400;
+    display: flex;
+    justify-content:left;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    margin-left:20px !important;
+    margin-bottom:10px;
+}
+.topclothesprice{
+    font-size:0.8rem;
+    font-weight:400;
+    display: flex;
+    justify-content:left;
+    margin-left:20px !important;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+.viewmore{
+    height:400px;
+    width:100%; 
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    --ub-font-family:-apple-system,blinkmacsystemfont,"Helvetica Neue",helvetica,segoe ui,arial,roboto,"PingFang SC","miui","Hiragino Sans GB","Microsoft Yahei",sans-serif;
+}
+.viewmore h3{
+    color:black;
+    font-size:1.5rem;
+    font-weight:300;
+}
+
+#firstSwiper{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}

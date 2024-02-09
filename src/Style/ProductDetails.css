@@ -1,0 +1,56 @@
+.detailsProject {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.imageProductDetails img {
+    height: auto;
+    width: 70%;
+}
+
+.productHeading h1 {
+    font-family: 'URDalaFloda' !important;
+    letter-spacing: 2px !important;
+    font-variant: lining-nums;
+    font-size: 3rem;
+}
+
+  
+.DetailsBtn button {
+    width: 170px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.sizeBtn {
+    font-weight: 400 !important;
+    color: black;
+    outline: 1px solid grey;
+}
+
+.detailsDescrption p {
+    text-align: justify;
+}
+
+/* ===============================
+============== Similar Product */
+
+.similarImg img {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.productNameOfDetails p {
+    line-height: 10px;
+}
+
+.box-1 {
+    margin: 5px;
+    padding: 5px 2.5rem;
+    border-radius: 10px;
+    outline: 1px solid grey;
+
+}

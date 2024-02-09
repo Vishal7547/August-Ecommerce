@@ -1,0 +1,186 @@
+
+.Container{
+    height:100vh;
+    font-family: URMacan, -apple-system, blinkmacsystemfont, "Helvetica Neue", helvetica, segoe ui, arial, roboto, "PingFang SC", "miui", "Hiragino Sans GB", "Microsoft Yahei", sans-serif !important;
+}
+.emptyContainer{
+ display:flex;
+ flex-direction:column;
+ align-items:center;
+ justify-content:center;
+ margin-top:200px;
+}
+.emptyIcon{
+    margin-bottom:10px;
+    margin-left:20px;
+}
+.emptyIcon img{
+    height:30px;
+    width:30px;
+}
+.signs{
+    font-size:2rem;
+    font-weight:600;
+    color:#000;
+}
+.emptyText span{
+    font-size:1.2rem;
+    font-weight:500;
+    color: #000;
+    margin-bottom:40px;
+}
+.above{
+    margin-left:40px;
+}
+.btn{
+    width:500px;
+    padding:8px;
+    background-color:#000;
+    color:#fff;
+    font-size:1rem;
+    border:none;
+    border-radius:6px;
+    margin-top:40px;
+}
+.modal,.overlay{
+    width:100vw;
+    height:100vh;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    position: fixed;
+}
+.overlay{
+    background:rgba(49,49,49,0.8);
+}
+.modalContent{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color:#fff;
+    padding:14px 28px;
+    border-radius:6px;
+    max-width:1000px;
+    min-width:850px;
+    box-sizing:border-box;
+}
+.closeModal{
+    position:absolute;
+    top:10px;
+    right:10px;
+    padding: 5px 7px;
+}
+.heading{
+    margin:20px;
+    text-align:center;
+    color:#222;
+    font-size:1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+.contactspan{
+font-size:1rem;
+padding:10px;
+
+}
+.formdata{
+    /* background-color:red; */
+    margin:20px;
+}
+.formdata>div{
+    width:100%;
+    height:40px;
+    margin:0;
+    padding:0;
+    /* border:2px solid grey; */
+    /* border-radius:20px; */
+    position:relative;
+    /* background-color:red; */
+  
+}
+.formdata>div>input{
+    width:100%;
+    height:40px;
+    /* padding-left:10px; */
+   outline:none;
+   border:none;
+   /* border-left:none; */
+   border: 1px solid rgb(209, 209, 209);
+   border-radius:10px;
+}
+.formdata>div>input:hover{
+ border:0.5px solid black;
+}
+.formdata>div>label{
+    position:absolute;
+    top:0px;
+    line-height:40px;
+    font-size:0.8rem;
+    color:#999;
+    left:10px;
+    pointer-events: none;
+    transition:0.15s;
+}
+.formdata>div>input:focus + label{
+   line-height:15px;
+   font-size:10px;
+   color:#999;
+   font-weight:bold;
+}
+.formdata>div>input:not(:placeholder-shown)+label{
+    line-height:15px;
+    font-size:10px;
+    color:#999;
+    font-weight:bold;
+}
+.formcontact{
+    width:200px!important;
+}
+.contactinfo{
+  display:flex;
+
+}
+.num{
+    margin-top:32px;
+    /* height:40px; */
+    text-align:center;
+    /* padding:10px; */
+}
+.num span{
+    background-color:rgba(243, 241, 241, 0.85);
+    border-radius:7px;
+    padding:13px;
+}
+.addressinput1{
+    width:300px!important;
+}
+.addressinput2{
+    width:200px!important;
+
+}
+
+.addresspan{
+    font-size:1rem;
+    padding:10px;   
+}
+.addressinfo1{
+    display:flex;
+}
+.addressinfo2{
+    display:flex;
+}
+.btnsave{
+    width:67%;
+    background-color:black;
+    color:#fff;
+    border-radius:6px;
+    padding:10px;
+    outline:none;
+    font-size:0.8rem;
+    text-align:center;
+}
+.centerbtn{
+    text-align: center;
+    margin:30px;
+}

@@ -1,0 +1,12 @@
+.heading{
+    font-size:1.2rem;
+    letter-spacing: 0.7px !important;
+    line-height: 1;
+    margin-bottom: 0.4rem;
+    margin-top:20px;
+    text-transform: uppercase;
+    color: rgba(0,0,0,.85);
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Bodoni Moda', serif;
+}

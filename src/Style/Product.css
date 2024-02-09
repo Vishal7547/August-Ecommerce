@@ -1,0 +1,36 @@
+.product {
+    height: auto;
+    width: 100%;
+}
+
+/* .filterFixedSize {
+    position: fixed;
+    left: 0;
+    background-color: red;
+    height: 100vh;
+} */
+.left {
+    position: fixed;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.right {
+    position: fixed;
+    left: 300px;
+    overflow-y: scroll !important;
+    height: 100vh; 
+
+}
+/* .productoutcls{
+    position:relative !important;
+
+}
+.fav-icon{
+    position:absolute !important;
+   top:100px !important;
+   bottom: -20px !important;;
+   z-index:1;
+} */

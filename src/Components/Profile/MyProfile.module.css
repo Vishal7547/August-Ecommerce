@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700&family=Great+Vibes&family=Inconsolata:wght@300&family=Roboto:ital,wght@0,300;0,400;1,700;1,900&family=Satisfy&display=swap");
+
+.namefield {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+.nametitle{
+  font-weight: 600 !important;
+  font-size: 0.8rem !important;
+  color: #222 !important;
+  font-family: URMacan, -apple-system, blinkmacsystemfont, "Helvetica Neue", helvetica, segoe ui, arial, roboto, "PingFang SC", "miui", "Hiragino Sans GB", "Microsoft Yahei", sans-serif !important;
+}
+.namefield span {
+  margin-bottom: 20px;
+  margin-top: 80px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.85);
+}
+.namefield input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 8px;
+  color: grey;
+  outline: none;
+  border: 1px solid grey;
+}
+.namefield input:hover {
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.birthday {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+.birthdaytitle{
+  font-weight: 600 !important;
+  font-size: 0.8rem !important;
+  color: #222 !important;
+  font-family: URMacan, -apple-system, blinkmacsystemfont, "Helvetica Neue", helvetica, segoe ui, arial, roboto, "PingFang SC", "miui", "Hiragino Sans GB", "Microsoft Yahei", sans-serif !important;
+}
+.birthday span {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.85);
+}
+.birthday input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 8px;
+  color: grey;
+  outline: none;
+  border: 1px solid grey;
+}
+.birthday input:hover {
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.gender {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.85);
+}
+.gendertitle{
+  font-weight: 600;
+  font-size: 0.8rem;
+  font-family: URMacan, -apple-system, blinkmacsystemfont, "Helvetica Neue", helvetica, segoe ui, arial, roboto, "PingFang SC", "miui", "Hiragino Sans GB", "Microsoft Yahei", sans-serif !important;
+}
+.gender p {
+  /* margin-bottom: 10px; */
+  margin-top: 20px;
+}
+.gender p input {
+  padding: 20px;
+}
+.inputgender {
+  margin: 10px;
+ 
+}
+.categoryPreferences {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+.categorytitle{
+  font-weight: 600 !important;
+  font-size: 0.8rem !important;
+  color: #222 !important;
+  font-family: URMacan, -apple-system, blinkmacsystemfont, "Helvetica Neue", helvetica, segoe ui, arial, roboto, "PingFang SC", "miui", "Hiragino Sans GB", "Microsoft Yahei", sans-serif !important;
+}
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  font-family: "Roboto", sans-serif;
+}
+.categoryPreferences span {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.85);
+  margin-top: 20px;
+}
+.partiularcat {
+  border: 1px solid rgb(209, 209, 209);
+  padding: 5px 12px 5px 12px;
+  border-radius: 5px;
+  font-size:0.9rem;
+  font-weight:300;
+}
+#partiularcat {
+  border: 1px solid black;
+}
+.confirm {
+  width: 100px;
+  margin: 30px 0px 30px 0px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  border: none;
+}
+.verify {
+  width: 90%;
+  background-color: hsla(0, 0%, 59%, 0.1);
+  /* font-family: 'Bodoni Moda', serif; */
+  /* font-family: 'Great Vibes', cursive; */
+  /* font-family: 'Inconsolata', monospace; */
+  font-family: "Roboto", sans-serif;
+}
+.phone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.phoneheading {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #111;
+}
+.phonepara {
+  font-size: 0.7rem;
+}
+.phoneright {
+  margin: 10px;
+}
+.email {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.emailheading {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #111;
+}
+.emailpara {
+  font-size: 0.7rem;
+}
+.emailright a {
+  margin: 10px;
+}

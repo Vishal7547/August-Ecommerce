@@ -1,0 +1,113 @@
+.userLeft{
+    /* width:16%; */
+    height:100vh;
+    /* border:1px solid black; */
+    overflow: hidden;
+    font-family: URMacan, -apple-system, blinkmacsystemfont, "Helvetica Neue", helvetica, segoe ui, arial, roboto, "PingFang SC", "miui", "Hiragino Sans GB", "Microsoft Yahei", sans-serif !important;
+    margin:10px;
+}
+.userLogo{
+    display:flex;
+    flex-direction:row;
+    /* justify-content:space-between; */
+    align-items: center;
+    margin-bottom:20px;
+}
+.logoUser{
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    background-size: contain;
+    margin-top:20px;
+    /* margin-left:20px; */
+}
+.leftHeading{
+    margin-top:10px;
+    margin-left:20px;
+}
+.userLogoHeading{
+    font-size:0.8rem;
+    font-weight:600;
+    margin-bottom:10px;
+}
+.userLogoText{
+    color:#131415;
+    font-family: URMacan, -apple-system, blinkmacsystemfont, "Helvetica Neue", helvetica, segoe ui, arial, roboto, "PingFang SC", "miui", "Hiragino Sans GB", "Microsoft Yahei", sans-serif !important;
+    font-weight:100;
+    font-size:0.7rem;
+}
+.hrstyle{
+    color:#131415 !important;
+}
+.myAccount{
+    margin-top:10px;
+    margin-bottom:10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+    padding:5px;
+}
+.myAccount h3{
+    font-size:0.7rem;
+    font-weight:600;
+    color:#131415;
+}
+.optionSelect{
+    height:auto;
+}
+.optionChoices{
+    display: flex;
+    align-items:center;
+    justify-content:start;
+    padding:5px;
+    margin-bottom:10px;
+}
+.optionChoices span{
+    font-size:0.7rem;
+    font-weight:200;
+    color:#131415;
+    margin-left:10px;  
+}
+.myOrders{
+    margin-top:10px;
+    margin-bottom:20px;  
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+    padding:5px; 
+}
+.myOrders h3{
+    font-size:0.7rem;
+    font-weight:600; 
+    color:#131415;
+}
+.helpCenter{
+    margin-top:10px;
+    margin-bottom:20px; 
+    display: flex;
+    align-items: center;
+    justify-content:space-between; 
+    padding:5px;   
+}
+.helpCenter h3{
+    font-size:0.7rem;
+    font-weight:600; 
+    color:#131415;
+}
+.logOut{
+    margin-top:20px;
+    margin-bottom:10px;  
+    /* border:1px solid black; */
+   background-color: hsla(0,0%,85%,.2); 
+   width:200px; 
+   border-radius:0.1rem;
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+   padding:15px;
+
+}
+.logOut h3{
+    font-size:0.8rem;
+    font-weight:500;    
+}

@@ -1,0 +1,44 @@
+--FEATURES
+##AUTHENTICATION
+1> user login and signup.
+2> admin login signup.
+3> login by email id and goggle authentication.
+
+## USER RIGHTS/ADMIN RIGHTS
+1> User can buy and add product to wishlisht and also they can add multiple items
+ to the cart.
+2> User can track their product also.
+3> User can place the order to it's desired location.
+4> User can do cash on dilvery as well as online payment.
+5> User can also take inspiration from insta models.
+6> User can also give their reviews about the products by adding pictures and comments.
+
+--for ADMIN 
+
+1> can add product of diff brands.
+2> can check the information of the user.
+   like:->
+3> can change the status of the product.
+4> can check the overall revenue to be genrated.
+5> maxm sell from particular brand.
+
+--> FUNCTIONALITY
+1> authentication.
+2> user authenticity.
+3> product flitering.
+--for user
+4> add to cart.
+5> wishlist.
+6> remove from cart.
+7> payment.
+8>inspirations.
+--for admin
+9> can perform crud operation on products.
+
+--> pages
+1> HOME
+2> CART
+3> WISHLIST
+6> MY ORDER
+7> PAYMENT
+8> 

@@ -1,0 +1,41 @@
+.containerError{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height:600px;
+
+}
+.num{
+    margin-top:-20px;
+}
+.num span{
+    font-size:10rem;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2LU25IP6iGPIoJBtf7gKmwxuV7MNvIHbglaCqCYW5VmWKLayX_iE3hyl7bvnGg1ADlS8&usqp=CAU");
+    background-size: cover;
+    background-position:center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+.pagenotfound p{
+    font-size:1rem;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2LU25IP6iGPIoJBtf7gKmwxuV7MNvIHbglaCqCYW5VmWKLayX_iE3hyl7bvnGg1ADlS8&usqp=CAU");
+    background-size: cover;
+    background-position:center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+.btn{
+  margin-top:20px;
+  padding:9px;
+  font-size:1.5rem;
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2LU25IP6iGPIoJBtf7gKmwxuV7MNvIHbglaCqCYW5VmWKLayX_iE3hyl7bvnGg1ADlS8&usqp=CAU");
+  background-size: cover;
+  background-position:center;
+  color:#fff;
+  border:none;  
+  border-radius:5px;
+ 
+}

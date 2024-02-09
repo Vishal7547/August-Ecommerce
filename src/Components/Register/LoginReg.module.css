@@ -1,0 +1,31 @@
+.container{
+    margin-top:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.devider{
+    color:black;
+}
+.tableLoginReg{
+    /* background-color:red; */
+    /* width:900px; */
+    margin:auto;
+}
+.tableLoginRegtab{
+   color:black!important;
+   width:300px;
+   font-size:2rem;
+}
+.login{
+    display:flex;
+    align-items:center;
+    justify-content:center; 
+}
+.signin{
+    display:flex;
+    align-items:center;
+    justify-content:center;  
+}
+
