@@ -103,8 +103,8 @@ const Home = () => {
                     </div>
                     <div className={style.sctright}>
                       <div className={style.scttext}>
-                        <span className={style.sctprname}>{s.name}</span>
-                        <span className={style.sctprice}>₹{s.price}</span>
+                        <span className={style.sctprname}>{s?.name}</span>
+                        <span className={style.sctprice}>₹{s?.price}</span>
                       </div>
                     </div>
                   </div>
