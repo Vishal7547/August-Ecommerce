@@ -66,7 +66,7 @@ To run the project locally, follow these steps:
 ## Demo
 
 - **Live Demo:** [View Live Demo](https://august-ecommerce.vercel.app/)
-- **Video Demo:** [Watch Video Demo](https://your-video-demo-url.com)
+- **Video Demo:** [Watch Video Demo](https://res.cloudinary.com/dh9qvkjr1/video/upload/v1708844370/uarwgjoviltwtr23gjau.mkv)
 
 ## Contact Information
 
