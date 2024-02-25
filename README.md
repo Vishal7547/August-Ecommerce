@@ -68,6 +68,12 @@ To run the project locally, follow these steps:
 - **Live Demo:** [View Live Demo](https://august-ecommerce.vercel.app/)
 - **Video Demo:** [Watch Video Demo](https://res.cloudinary.com/dh9qvkjr1/video/upload/v1708844370/uarwgjoviltwtr23gjau.mkv)
 
+##images
+
+- **image1:** [View Live Demo](https://res.cloudinary.com/dh9qvkjr1/image/upload/v1708845165/cgnjxeowbr8qs2vxnf3j.png)
+- **image2:** [View Live Demo](https://res.cloudinary.com/dh9qvkjr1/image/upload/v1708845163/iywbtsvcyxpjesupymn5.png)
+- **image3:** [View Live Demo](https://res.cloudinary.com/dh9qvkjr1/image/upload/v1708845162/olvuf7ofihdofpcmjlu9.png)
+
 ## Contact Information
 
 For further discussions or inquiries, feel free to reach out to me:
