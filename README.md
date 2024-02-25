@@ -68,6 +68,11 @@ To run the project locally, follow these steps:
 - **Live Demo:** [View Live Demo](https://august-ecommerce.vercel.app/)
 - **Video Demo:** [Watch Video Demo](https://res.cloudinary.com/dh9qvkjr1/video/upload/v1708844370/uarwgjoviltwtr23gjau.mkv)
 
+- **watch:** <video width="320" height="240" controls>
+  <source src="https://res.cloudinary.com/dh9qvkjr1/video/upload/v1708844370/uarwgjoviltwtr23gjau.mkv" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ##images
 
 - **image1:** <img src="https://res.cloudinary.com/dh9qvkjr1/image/upload/v1708845165/cgnjxeowbr8qs2vxnf3j.png" alt="image1" />
