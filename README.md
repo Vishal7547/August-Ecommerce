@@ -71,8 +71,8 @@ To run the project locally, follow these steps:
 ##images
 
 - **image1:** <img src="https://res.cloudinary.com/dh9qvkjr1/image/upload/v1708845165/cgnjxeowbr8qs2vxnf3j.png" alt="image1" />
-- **image2:** [View Live Demo](https://res.cloudinary.com/dh9qvkjr1/image/upload/v1708845163/iywbtsvcyxpjesupymn5.png)
-- **image3:** [View Live Demo](https://res.cloudinary.com/dh9qvkjr1/image/upload/v1708845162/olvuf7ofihdofpcmjlu9.png)
+- **image2:** <img src="https://res.cloudinary.com/dh9qvkjr1/image/upload/v1708845163/iywbtsvcyxpjesupymn5.png" alt="image1" />
+  <img src="https://res.cloudinary.com/dh9qvkjr1/image/upload/v1708845162/olvuf7ofihdofpcmjlu9.png" alt="image1" />
 
 ## Contact Information
 
