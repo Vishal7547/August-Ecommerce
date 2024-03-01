@@ -4,10 +4,19 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import { LuShirt } from "react-icons/lu";
 import SimilarProduct from "../../Components/Product/SimilarProduct";
 import BasicModal from "../../Components/Product/BasicModal";
-import { useParams,useNavigate} from "react-router-dom";
-import { useContext,useEffect} from "react";
+import { useParams, useNavigate } from "react-router-dom";
+import { useContext, useEffect } from "react";
 import { ProductContext, UserContext } from "../../Context/MyContext";
-import {collection,onSnapshot,addDoc,where,query,getDocs,doc, updateDoc } from "firebase/firestore";
+import {
+  collection,
+  onSnapshot,
+  addDoc,
+  where,
+  query,
+  getDocs,
+  doc,
+  updateDoc,
+} from "firebase/firestore";
 import { db } from "../../Firebase/Firebase";
 
 const style = {
@@ -24,110 +33,98 @@ const style = {
   p: 4,
 };
 
-
 const ProductDetails = () => {
   const user = JSON.parse(window.localStorage.getItem("August"));
-  const [productDetails,setProductDetails] = useState({});
+  const [productDetails, setProductDetails] = useState({});
   const [open, setOpen] = useState(false);
-  const [cartData,setCartData] = useState([]);
+  const [cartData, setCartData] = useState([]);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-  const [loading,setLoading] = useState();
-  const {product,size,setSize} = useContext(ProductContext);
-  
-      const { currentuser} = useContext(UserContext);
+  const [loading, setLoading] = useState();
+  const { product, size, setSize } = useContext(ProductContext);
+
+  const { currentuser } = useContext(UserContext);
 
   const { id } = useParams();
   console.log(id);
 
-  useEffect(()=>{
-    try{
-      onSnapshot(doc(db, "product",id), (snapshot) => {
-           
-            const data= {
-             ...snapshot.data(),
-             id:snapshot.id,
-            
-            }
-            setProductDetails(data);
-            console.log("#######",data);
-          });
-
-    }catch(e){
-       console.log(e);
-    }
-        },[id])
-
-const navigate = useNavigate();
-
-
-const handleCart = async()=>{
-  const userId = window.localStorage.getItem("UserId");
-  if(size){
-
-      if(user){
-        const citiesRef = collection(db, "carts");
-    
-        const q = query(citiesRef, where("id", "==", 
-        productDetails?.id));
-    
-        const querySnapshot = await getDocs(q);
-      const check = querySnapshot?.docChanges();
-  if(check.length === 0){
-    try{
-      const docRef = await addDoc(collection(db, "carts"), {
-        ...productDetails,size,userId:user?.uid,status:true,
-        qty: 1, 
-      });
-    }catch(e){
-      console.log("carterror",e);
-    }
-
-  }
-  else{
-console.log("already added");
-console.log(check[0]?.doc?.id,"check123");
-const cartid = check[0]?.doc?.id;
-const washingtonRef = doc(db, "carts", cartid);
-const total = Number(productDetails?.qty)+1;
-console.log("total",total);
-await updateDoc(washingtonRef, {
-  qty:total,
-  size,
-});
-  }
-    }
-    else{
-    const cart = window.localStorage.getItem("goodies")?JSON.parse(window.localStorage.getItem("goodies")):[];
-    const check = cart?.find((c,i)=>(
-    c?.id === productDetails?.id
-    ));
-    if(check){
-      const cartUpdate = cart?.map((c,i)=>{
-      if(c?.id === productDetails?.id){
-      return {...c,qty:Number(c?.qty)+1,size}
-      }else{
-      return c;
-      }
-      })
-    window.localStorage.setItem("goodies",JSON.stringify(cartUpdate));
-
-    }
-    else{
-        const notLoginUser = {...productDetails,size,status:true,
+  useEffect(() => {
+    try {
+      onSnapshot(doc(db, "product", id), (snapshot) => {
+        const data = {
+          ...snapshot.data(),
+          id: snapshot.id,
         };
-    cart.push(notLoginUser);
-    window.localStorage.setItem("goodies",JSON.stringify(cart));
+        setProductDetails(data);
+        console.log("#######", data);
+      });
+    } catch (e) {
+      console.log(e);
     }
+  }, [id]);
 
+  const navigate = useNavigate();
+
+  const handleCart = async () => {
+    const userId = window.localStorage.getItem("UserId");
+    if (size) {
+      if (user) {
+        const citiesRef = collection(db, "carts");
+
+        const q = query(citiesRef, where("id", "==", productDetails?.id));
+
+        const querySnapshot = await getDocs(q);
+        const check = querySnapshot?.docChanges();
+        if (check.length === 0) {
+          try {
+            const docRef = await addDoc(collection(db, "carts"), {
+              ...productDetails,
+              size,
+              userId: user?.uid,
+              status: true,
+              qty: 1,
+            });
+          } catch (e) {
+            console.log("carterror", e);
+          }
+        } else {
+          console.log("already added");
+          console.log(check[0]?.doc?.id, "check123");
+          const cartid = check[0]?.doc?.id;
+          const washingtonRef = doc(db, "carts", cartid);
+          const total = Number(productDetails?.qty) + 1;
+          console.log("total", total);
+          await updateDoc(washingtonRef, {
+            qty: total,
+            size,
+          });
+        }
+      } else {
+        const cart = window.localStorage.getItem("goodies")
+          ? JSON.parse(window.localStorage.getItem("goodies"))
+          : [];
+        const check = cart?.find((c, i) => c?.id === productDetails?.id);
+        if (check) {
+          const cartUpdate = cart?.map((c, i) => {
+            if (c?.id === productDetails?.id) {
+              return { ...c, qty: Number(c?.qty) + 1, size };
+            } else {
+              return c;
+            }
+          });
+          window.localStorage.setItem("goodies", JSON.stringify(cartUpdate));
+        } else {
+          const notLoginUser = { ...productDetails, size, status: true };
+          cart.push(notLoginUser);
+          window.localStorage.setItem("goodies", JSON.stringify(cart));
+        }
+      }
+
+      return navigate("/cart");
+    } else {
+      handleOpen();
     }
-
-  //  return navigate('/cart');
-  }else{
-
-    handleOpen();
-  }
-}
+  };
 
   return (
     <>
@@ -137,25 +134,20 @@ await updateDoc(washingtonRef, {
             <div className="col-md-6">
               <div className="row">
                 <div className="imageProductDetails">
-                  <img
-                    src={productDetails?.photo?.url}
-                    alt="product"
-                  />
+                  <img src={productDetails?.photo?.url} alt="product" />
                 </div>
               </div>
             </div>
             <div className="col-md-6  py-1">
               <div className="row mt-5 px-5">
                 <div className="row productHeading">
-                  <h1>
-                  {productDetails?.name}
-                  </h1>
+                  <h1>{productDetails?.name}</h1>
                 </div>
                 <div className="row mt-4 productPrice">
                   <div className="d-flex justify-content-between">
                     <div className="price">
-                      <h4 >MRP ₹ {productDetails?.price}</h4>
-                      <p >Inclusive of all taxes</p>
+                      <h4>MRP ₹ {productDetails?.price}</h4>
+                      <p>Inclusive of all taxes</p>
                     </div>
                     <div className="fav">
                       <span>
@@ -169,7 +161,7 @@ await updateDoc(washingtonRef, {
                 </div>
                 <div className="row DetailsBtn">
                   <button className="btn  py-2 sizeBtn" onClick={handleOpen}>
-                    {!size?"SELECT SIZE":size}
+                    {!size ? "SELECT SIZE" : size}
                     <MdKeyboardArrowDown color="black" fontSize={25} />
                   </button>
                 </div>
@@ -183,7 +175,7 @@ await updateDoc(washingtonRef, {
                     <LuShirt /> ABOUT THIS PROJECT
                   </p>
                   <p className="detailsDescrption">
-                  {productDetails?.description}
+                    {productDetails?.description}
                   </p>
                 </div>
               </div>
@@ -199,10 +191,7 @@ await updateDoc(washingtonRef, {
         style={style}
         productDetails={productDetails}
       />
-      <SimilarProduct 
-        id={productDetails?.categoriesName?.id}
-      />
-
+      <SimilarProduct id={productDetails?.categoriesName?.id} />
     </>
   );
 };
